@@ -91,7 +91,7 @@ format = '[ $branch ]($style)'
 
 [git_status]
 style = "bg:yellow fg:black"
-format = '([ $ahead_behind$all_status ]($style))'
+format = '([$ahead_behind ](bg:green fg:black))([$all_status ]($style))'
 ahead = "⇡$count"
 behind = "⇣$count"
 diverged = "±"
